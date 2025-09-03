@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'features/dashboard_widget.dart';
+import 'dashboard_page.dart';
 
 void main() {
   runApp(const HumanAidApp());
@@ -15,7 +15,7 @@ class HumanAidApp extends StatelessWidget {
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
       themeMode: ThemeMode.system,
-      home: const DashboardWidget(),
+      home: const DashboardPage(),
     );
   }
 }
